@@ -1,0 +1,271 @@
+.Experts{
+display: grid;
+justify-content: center;
+padding-bottom: 140px;
+}
+
+.Experts .cards{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+gap: 2rem;
+grid-template-rows: repeat(2 , 200px);
+
+}
+
+.Experts .card{
+    padding: 35px;
+    display: flex;
+    gap: 2rem;
+    width: 600px;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    flex-grow: 1;
+    border-radius: 30px;
+    position: relative;
+}
+
+.Experts .card .a {
+    gap: 10px;
+display: flex;
+}
+
+
+.Experts .card .text{
+width: 400px;
+
+}
+
+.Experts .card .card_img{
+    width: 120px;
+    height: 120px;
+    padding-right: 0px;
+}
+
+.Experts .card .card_img img{
+object-fit: cover;
+}
+
+.Experts .card h5{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.Experts .card p{
+    font-size: 16px;
+    padding: 10px;
+} 
+
+.Experts .card .plus{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+
+    .Experts{
+        position: absolute;
+        top: 4000px;
+        text-align: center;
+        /* background-color: #d85050; */
+        width: 90%;
+        margin: auto;
+        height: 1200px;
+    }
+
+    .Experts .head{
+        /* background-color: #686060; */
+        /* width: 600px; */
+        height: 350px;
+        left: 42px;
+        position: absolute;
+        padding-top: 120px;
+    }
+
+    .Experts h6{
+        font-size: 18px;
+         padding-bottom: 10px;
+    }
+     
+    .Experts h2{
+        font-size: 28px;
+    }
+    
+    .Experts .card{
+    /* display: none; */
+    width: 410px;
+    height: 160px;
+    text-align: left;
+
+    }
+
+    .Experts .text{
+       position: absolute;
+       top: 10px;
+       left: 140px;
+       height: 140px;
+       width:70px;
+    }
+
+    .Experts .card p{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .Experts .card h5{
+         font-size: 20px;
+    }
+
+    .Experts .cards{
+
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(4,160px);
+        margin-left: 0;
+        left: 40px;
+        top: 300px;
+        position: absolute;
+        gap: 2rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+
+    .Experts{
+        position: absolute;
+        top: 4000px;
+        text-align: center;
+        /* background-color: #d85050; */
+        width: 90%;
+        margin: auto;
+        height: 1200px;
+    }
+
+    .Experts .head{
+        width:100%;
+        height: 350px;
+        /* left: 45px; */
+        position: absolute;
+        padding-top: 120px;
+    }
+
+    .Experts h6{
+        font-size: 18px;
+         padding-bottom: 10px;
+    }
+     
+    .Experts h2{
+        font-size: 28px;
+    }
+    
+    .Experts .card{
+    /* display: none; */
+    width: 410px;
+    height: 160px;
+    text-align: left;
+
+    }
+
+    .Experts .text{
+       position: absolute;
+       top: 10px;
+       left: 140px;
+       height: 140px;
+       width:70px;
+    }
+
+    .Experts .card p{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .Experts .card h5{
+         font-size: 20px;
+    }
+
+    .Experts .cards{
+
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(4,160px);
+        margin-left: 0;
+        left: 20%;
+        top: 280px;
+        position: absolute;
+        gap: 2rem;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .Experts{
+        position: absolute;
+        top: 4000px;
+        text-align: center;
+        /* background-color: #d85050; */
+        width: 90%;
+        margin: auto;
+        height: 1200px;
+    }
+
+    .Experts .head{
+        width:100%;
+        height: 350px;
+        /* left: 45px; */
+        position: absolute;
+        padding-top: 120px;
+    }
+
+    .Experts h6{
+        font-size: 18px;
+         padding-bottom: 10px;
+    }
+     
+    .Experts h2{
+        font-size: 28px;
+    }
+    
+    .Experts .card{
+    /* display: none; */
+    width: 410px;
+    height: 160px;
+    text-align: left;
+
+    }
+
+    .Experts .text{
+       position: absolute;
+       top: 10px;
+       left: 140px;
+       height: 140px;
+       width:70px;
+    }
+
+    .Experts .card p{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .Experts .card h5{
+         font-size: 20px;
+    }
+
+    .Experts .cards{
+
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(4,160px);
+        margin-left: 0;
+        left: 10%;
+        top: 280px;
+        position: absolute;
+        gap: 2rem;
+    }
+
+} 
